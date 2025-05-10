@@ -51,7 +51,7 @@ class Config:
 
     def show(self):
         """显示当前配置信息"""
-        print("=== eztorch Configuration ===")
+        print("=== ntorch Configuration ===")
         for key, value in self.__dict__.items():
             print(f"{key}: {value}")
         print("=============================")

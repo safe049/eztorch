@@ -1,4 +1,4 @@
-name: Publish MO-AWAOA to PyPI
+name: Publish ntorch to PyPI
 
 on:
   push:

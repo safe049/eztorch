@@ -1,7 +1,7 @@
 import torch
 import matplotlib.pyplot as plt
-from eztorch.data import get_dataloader
-from eztorch.config import default_config
+from ntorch.data import get_dataloader
+from ntorch.config import default_config
 
 class Trainer:
     def __init__(self, model, optimizer='Adam', lr=0.001, loss='CrossEntropyLoss', device=None):

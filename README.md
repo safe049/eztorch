@@ -1,7 +1,7 @@
 
-# 🧠 eztorch
+# 🧠 ntorch
 
-`eztorch` 是一个轻量级的 PyTorch 框架，旨在帮助开发者快速构建神经网络原型。它支持多层感知机（MLP）、卷积神经网络（CNN）、强化学习（DQN）和生成对抗网络（GAN），并提供自动模型构建、训练流程封装以及可视化工具。
+`ntorch` 是一个轻量级的 PyTorch 框架，旨在帮助开发者快速构建神经网络原型。它支持多层感知机（MLP）、卷积神经网络（CNN）、强化学习（DQN）和生成对抗网络（GAN），并提供自动模型构建、训练流程封装以及可视化工具。
 
 ---
 
@@ -16,8 +16,8 @@ pip install torch torchvision matplotlib gym
 然后克隆仓库并本地安装：
 
 ```bash
-git clone https://github.com/safe049/eztorch.git
-cd eztorch
+git clone https://github.com/safe049/ntorch.git
+cd ntorch
 pip install -e .
 ```
 

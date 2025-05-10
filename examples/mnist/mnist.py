@@ -1,5 +1,5 @@
-from eztorch.model import NeuralNet
-from eztorch.layers import Layer
+from ntorch.model import NeuralNet
+from ntorch.layers import Layer
 import torch
 
 
@@ -41,7 +41,7 @@ model.save("mnist_mlp_model.pth")
 # model.load("mnist_mlp_model.pth")
 
 
-from eztorch.data import get_dataloader
+from ntorch.data import get_dataloader
 
 # 使用已有的数据加载器
 _, test_loader = get_dataloader('mnist', batch_size=1)

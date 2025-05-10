@@ -1,0 +1,114 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  If you're using py2exe or similar, remove this section
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+.cache
+nosetests.xml
+test_output/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+/env/
+/venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda virtual environments
+conda
+/miniconda3
+/anaconda3
+
+# PyTorch checkpoints and models
+*.pth
+*.pt
+*.ckpt
+/model/
+/models/
+/checkpoints/
+
+# Dataset directories
+/data/
+/dataset/
+/raw/
+/processed/
+
+# VS Code & IDEs
+/.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Documentation builds
+/docs/_build/
+
+# Optional: ignore core dump files
+gpucore.*
+core
+core.*
